@@ -1,7 +1,5 @@
 $(document).ready(function() {
-	debugger;
 	$(".button").click(function() {
-		debugger;
 	    $('html, body').animate({
 	        scrollTop: $("#section2").offset().top - 83
 	    }, 1500);
