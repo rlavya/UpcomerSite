@@ -10,3 +10,13 @@ function signup() {
 	$(".content1").css("display", "none");
 	$(".hidden_content1").css("display", "block");
 }
+function show_menu() {
+	$('.hidden_header').css("display", "block");
+    var hidden_menu = document.getElementById('hidden_header');
+    if (hidden_menu.className == "hidden_header show") {
+        hidden_menu.className = "hidden_header hide";
+    }
+    else {
+        hidden_menu.className = "hidden_header show";
+    }
+}
