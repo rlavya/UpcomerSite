@@ -11,12 +11,12 @@ $(document).ready(function() {
 	});
 	$(".menu_button").click(function() {
 		$('.hidden_header').css("display", "block");
-	    var hidden_menu = document.getElementById('hidden_header');
-	    if (hidden_menu.className == "hidden_header show") {
-	        hidden_menu.className = "hidden_header hide";
+	    var hidden_menu = $('#hidden_header');
+	    if (hidden_menu.is(".hidden_header.show")) {
+	        hidden_menu.addClass("hidden_header hide");
 	    }
 	    else {
-	        hidden_menu.className = "hidden_header show";
+	        hidden_menu.addClass("hidden_header show");
 	    }
 	});
 });
