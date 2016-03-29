@@ -280,9 +280,9 @@ body {
 	left: -100%;
 	position: fixed;
 	width: 50%;
-	z-index: 3000;
 	height: 100%;
 	transition: all 0.5s linear;
+    z-index: 90;
 }
 .hidden_header ul {
     padding-top: 89px;
@@ -294,9 +294,7 @@ body {
 }
 .hidden_header ul li {
 	display: block;
-	height: 50px;
 	border-bottom: 1px solid #fff;
-	padding: 20px 0 0 50px;
 	font-family: "Asap", sans-serif;
 	font-size: 20px;
 	transition: all 0.5s linear;
@@ -305,6 +303,8 @@ body {
 .hidden_header ul li a {
 	text-decoration: none;
 	color: yellow;
+	padding: 25px 110px;
+	display: block;
 }
 .hidden_header ul li:hover {
 	background-color: black;
