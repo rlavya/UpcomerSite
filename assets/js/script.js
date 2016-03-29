@@ -10,7 +10,6 @@ $(document).ready(function() {
 		$(".hidden_content1").css("display", "block");
 	});
 	$(".menu_button").click(function() {
-		// $('.hidden_header').css("display", "block");
 	    var hidden_menu = $('#hidden_header');
 	    if (hidden_menu.is(".hidden_header.show")) {
 			hidden_menu.removeClass("hidden_header show");
