@@ -579,6 +579,7 @@ main #about_section2 {
 	}
 	main #about_section1 .wrapper .img {
 		padding-left: 30%;
+		padding-top: 3%;
 	}
 	#circle_2014 {
 		margin: -62px 0 0 0;
@@ -612,7 +613,7 @@ main #about_section2 {
 		border-left: 0;
 	}
 	#now_circle {
-		margin: -47px 8% 0px 8%;
+		margin: -47px 8% 0px 7%;
 	}
 }
 @media (max-width: 975px) {
@@ -716,5 +717,10 @@ main #about_section2 {
 	.section5_desc {
 		margin-top: 12%;
 		margin-left: -50px;
+	}
+}
+@media screen and (max-device-width: 520px) and (orientation: landscape){
+	#about_section2 .about_desc p {
+		font-size: 45.1203px;
 	}
 }
