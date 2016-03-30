@@ -303,7 +303,7 @@ body {
 .hidden_header ul li a {
     text-decoration: none;
     color: yellow;
-	padding: 25px 33%;
+    padding: 25px 33%;
     display: block;
 }
 .hidden_header ul li:hover {
@@ -613,7 +613,7 @@ main #about_section2 {
         border-left: 0;
     }
     #now_circle {
-        margin: -47px 8% 0px 7%;
+        margin: -47px 8% 0px 8%;
     }
 }
 @media (max-width: 975px) {
@@ -715,8 +715,8 @@ main #about_section2 {
         width: 26%;
     }
     .section5_desc {
-        margin-top: 12%;
-        margin-left: -50px;
+        margin-top: 13%;
+        margin-left: -36px;
     }
 }
 @media screen and (max-device-width: 520px) {
@@ -727,9 +727,15 @@ main #about_section2 {
         width: 60%;
         padding-left: 20%;
     }
+	#about_section2 .about_desc span {
+		font-size: 18px;
+	}
+	#about_section2 .about_desc p {
+		font-size: 14px;
+	}
 }
 @media screen and (max-device-width: 800px) {
-	#about_section2 .about_desc p {
+    #about_section2 .about_desc p {
         font-size: 20px;
     }
     .content1 span {
